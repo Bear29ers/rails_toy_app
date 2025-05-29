@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 ruby '3.2.8'
@@ -6,7 +8,7 @@ gem 'bootsnap',        '1.16.0', require: false
 gem 'concurrent-ruby', '1.3.4'
 gem 'importmap-rails', '1.1.5'
 gem 'jbuilder',        '2.11.5'
-gem 'puma',            '5.6.8'
+gem 'puma', '>= 6.0'
 gem 'rails', '~> 7.1.3'
 gem 'sassc-rails',     '2.1.2'
 gem 'sprockets-rails', '3.4.2'
